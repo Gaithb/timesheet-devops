@@ -18,11 +18,8 @@ import javax.persistence.TemporalType;
 @Table(name = "T_USER")
 public class User implements Serializable {
 
-
-	private static final long serialVersionUID = 1L;
-//Premier changement : -- 2 --333
-//  Nouveau commentaire --
-//3rd comment
+#1
+	private static final long serialVersionUID = 1L;   
 	@Id
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
 	private Long id;   
