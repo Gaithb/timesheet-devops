@@ -20,9 +20,9 @@ public class User implements Serializable {
 
 
 	private static final long serialVersionUID = 1L;
-//Premier changement :
-
-//chang master
+//Premier changement : --
+//  Nouveau commentaire --
+//3rd comment
 	@Id
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
 	private Long id;   
