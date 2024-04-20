@@ -20,7 +20,7 @@ public class User implements Serializable {
 
 
 	private static final long serialVersionUID = 1L;
-//Premier changement :
+//Premier changement : -- 2
 //  Nouveau commentaire --
 //3rd comment
 	@Id
